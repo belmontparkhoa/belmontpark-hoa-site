@@ -148,3 +148,30 @@ table {
 .title {
   text-wrap: balance;
 }
+
+.custom-dt {
+  @apply w-full;
+}
+
+.custom-dt table {
+  @apply w-full divide-y divide-gray-200;
+}
+
+.custom-dt thead {
+  @apply px-6 py-3 text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400;
+}
+.custom-dt th {
+  @apply px-6 py-3 tracking-wider;
+}
+
+.custom-dt td {
+  @apply px-6 py-4 whitespace-nowrap;
+}
+
+.custom-dt tr:nth-child(even) {
+  @apply bg-gray-50;
+}
+
+.dt-search input {
+  @apply mb-10 block p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+}

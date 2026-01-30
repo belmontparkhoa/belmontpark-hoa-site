@@ -23,10 +23,11 @@ export default function Minutes() {
     ];
 
     return (
-        <div className="p-5" >
+        <div className="p-5 flex relative" >
         <DataTable
         ajax='https://api.belmontparkhoa.net/index.js'
         columns={columns}
+        className="custom-dt"
         options={{
             order: [[0, 'desc']]
         }}
