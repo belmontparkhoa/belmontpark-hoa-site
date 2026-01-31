@@ -21,6 +21,8 @@ export default function ccrBylaws() {
                 <li>Current property owner of record</li>
                 <li>Address of the property</li>
                 <li>Description of the proposed change</li>
+                <li>Start and end dates of the proposed change</li>
+                <li>Contractor name and credentials (licensed and bonded with liability insurance), if applicable</li>
                 <li>Any additional sketches, mockups, etc that describe the proposed change</li>
             </ul>
             <p className="p-5">
