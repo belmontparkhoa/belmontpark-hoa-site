@@ -1,16 +1,15 @@
 export default function Board() {
     return (
         <div className="p-5">
-            <h1 className="mb-4 text-4xl">2025 Officers & Board of Directors</h1>
-            <h2 className="py-1 mb-1 text-2xl">Board Members</h2>
-            <p>Tina Powell</p>
+            <h1 className="mb-4 text-4xl">2026 Officers & Board of Directors</h1>
+            <h2 className="py-1 mb-1 text-2xl">Board Members and Officers</h2>
+            <p>Dan Bernert</p>
+            <p>Linda Beuerman - <b>Treasurer</b></p>
             <p>Dorthy Hardee</p>
+            <p>Karen Kimber - <b>Secretary</b></p>
+            <p>Howard Hedrick - <b>President</b></p>
             <p>Carol Reser</p>
-
-            <h2 className="py-1 mb-1 text-2xl">Officers</h2>
-            <p>President - Howard Hedrick</p>
-            <p>Treasurer - Linda Beuerman</p>
-            <p>Secretary - Karen Kimber</p>
+            <p>Tom Tomlinson - <b>Vice President</b></p>
 
             <h2 className="py-1 mb-1 text-2xl">CC&R&apos;s / Architectural Control</h2>
             <p>Dan Bernert</p>
@@ -23,7 +22,7 @@ export default function Board() {
             <p>Kayla Heap - National Night Out</p>
 
             <h2 className="py-1 mb-1 text-2xl">Newsletter Editor</h2>
-            <p>Tina Powewll</p>
+            <p>Tina Powell</p>
 
             <h2 className="py-1 mb-1 text-2xl">Website</h2>
             <p>Tom Tomlinson</p>
