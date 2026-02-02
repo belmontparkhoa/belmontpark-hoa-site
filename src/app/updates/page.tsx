@@ -1,4 +1,4 @@
-import { getAllUpdates, type Update } from '@/lib/updates';
+import { getAllUpdates } from '@/lib/updates';
 import Link from 'next/link';
 
 export default function UpdatePage() {
