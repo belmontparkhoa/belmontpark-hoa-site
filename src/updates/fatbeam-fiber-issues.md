@@ -1,6 +1,6 @@
 ---
 title: 'Fatbeam Fiber Optics Installation Issues'
-publishedAt: '2024-11-15'
+publishedAt: '2024-11-15T00:00:00-07:00'
 summary: 'help for dealing with issues arising from the Fatbeam fiber installation'
 ---
 Fatbeam Fiber has been installing fiber optic cabling in the neighborhood as you may have noticed

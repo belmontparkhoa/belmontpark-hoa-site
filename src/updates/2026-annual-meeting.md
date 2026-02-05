@@ -1,6 +1,6 @@
 ---
 title: '2026 Annual Meeting Date'
-publishedAt: '2025-12-04'
+publishedAt: '2025-12-04T00:00:00-07:00'
 summary: '2026 annual meeting date set'
 ---
 The 2026 Annual Meeting of the Belmontpark HOA has been set for January 29, 2026 6:00pm - 7:45pm.  Agenda link [here](https://r2.belmontparkhoa.net/agendas/annual_meeting_2026.pdf)
