@@ -1,6 +1,6 @@
 ---
 title: 'Who do I call at City Hall?'
-publishedAt: '2024-01-01'
+publishedAt: '2024-01-01T00:00:00-07:00'
 summary: 'Helpful links for Boise city contact'
 ---
 Did you need to contact a City of Boise official for a livestock question?  How about reporting an abandonded vehicle?  The City has published a contact guide that can assist you, find it below.

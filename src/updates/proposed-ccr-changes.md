@@ -1,6 +1,6 @@
 ---
 title: 'Proposed CCR Changes'
-publishedAt: '2026-01-27'
+publishedAt: '2026-01-27T00:00:00-07:00'
 summary: 'proposed changes to the ccr documents'
 ---
 # Why Update Belmont Park Covenants, Conditions & Restrictions?

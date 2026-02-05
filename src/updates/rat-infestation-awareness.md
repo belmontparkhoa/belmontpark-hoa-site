@@ -1,6 +1,6 @@
 ---
 title: 'Boise Rat Infestation Awareness'
-publishedAt: '2026-01-30'
+publishedAt: '2026-01-30T00:00:00-07:00'
 summary: 'awareness information for the rat infestation'
 ---
 # Rats spotted in our neighboorhood
