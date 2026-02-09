@@ -1,12 +1,8 @@
 import { getUpdateBySlug } from '@/lib/updates';
 import { notFound } from 'next/navigation';
 
-export default async function UpdatePage({
-    params,
-}: {
-    params: Promise<{ slug: string}>
-}) {
-  const { slug } = await params;
+export default async function Page(props: PageProps<'/updates/[slug]'>){
+  const { slug } = await props.params;
   const update = getUpdateBySlug(slug);
   const dateOptions: Intl.DateTimeFormatOptions = {
     weekday: "long",
