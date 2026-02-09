@@ -11,6 +11,7 @@ const updates = defineCollection({
     title: z.string(),
     summary: z.string(),
     publishedAt: z.string(),
+    content: z.string(),
   }),
   transform: async (document, context) => {
     const html = await compileMarkdown(context, document, {remarkPlugins: [remarkGfm]});
@@ -27,6 +28,7 @@ const calevents = defineCollection({
     include: "**/*.md",
     schema: z.object({
         year: z.string(),
+        content: z.string(),
     }),
     transform: async (document, context) => {
         const html = await compileMarkdown(context, document );
