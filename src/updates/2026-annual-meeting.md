@@ -8,4 +8,3 @@ The 2026 Annual Meeting of the Belmontpark HOA has been set for January 29, 2026
 # When and Where
 - January 29, 2026 from 6:00p - 7:45pm.
 - Location: Library! at Cole & Ustick.  7557 W Ustick Rd.
-#
