@@ -1,4 +1,5 @@
 import { getAllUpdates} from "@/lib/updates"
+import Link from "next/link";
 
 const dateOptions: Intl.DateTimeFormatOptions = {
     weekday: "long",
@@ -31,22 +32,26 @@ export default function HomePage() {
                 Email us at <a href="mailto:bphoa.boise@gmail.com"><b>BPHOA.Boise@gmail.com</b></a>
                 </p>
         </div>
-        <div className="p-5">
-            <h1 className="text-2xl gap-x-4">Most recent updates</h1>
-        </div>
-        <div className="px-10">
-            <ul>
-            {updates.map((update) => (
-                <li key={update._meta.path}>
-                <a href={`/updates/${update._meta.path}`}>
-                    <p>
-                        <b className="text-semi">{update.title} - </b>
-                        <i> {new Date(update.publishedAt).toLocaleString("en-US", dateOptions)}</i>
-                    </p>
-                </a>
-                </li>
-            ))}
-            </ul>
+        <div className="flex">
+            <div className="flex-2 p-5">
+                <h1 className="text-2xl gap-x-4">Most recent updates</h1>
+                <ul className="px-5">
+                {updates.map((update) => (
+                    <li key={update._meta.path}>
+                    <a href={`/updates/${update._meta.path}`}>
+                        <p>
+                            <b className="text-semi">{update.title} - </b>
+                            <i> {new Date(update.publishedAt).toLocaleString("en-US", dateOptions)}</i>
+                        </p>
+                    </a>
+                    </li>
+                ))}
+                </ul>
+            </div>
+            <div className="flex-1 p-5">
+                <h1 className="text-2xl">Time Sensitive:</h1>
+                <p><b className="text-semi"><Link href="/updates/proposed-ccr-changes">Proposed CCR changes</Link></b></p>
+            </div>
         </div>
     </div>
     )
