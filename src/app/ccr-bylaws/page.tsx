@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function ccrBylaws() {
     return (
         <div className="p-5">
