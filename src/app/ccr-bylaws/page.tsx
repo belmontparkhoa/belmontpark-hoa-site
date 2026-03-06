@@ -10,7 +10,7 @@ export default function ccrBylaws() {
             </ul>
             <h1 className="py-5 text-4xl">Requests for Exterior Alteration or Improvement</h1>
             <p className="px-5">In accordance with the Declaration of Covenants, Conditions and Restrictions(CC&R&apos;s) for the Belmont Park
-                Subdivision, Section 2.3 states: &quot;No improvements which will be visible above ground or which wil ultimately
+                Subdivision, Section 2.3 states: &quot;No improvements which will be visible above ground or which will ultimately
                 affect the visibility of any above ground improvement shall be built, erected, placed or materially altered,
                 including without limitation, change of exterior colors or materials, on the Property, unless and until the
                 building plans, specifications, and plot plan have been reviewed in advance by the Architectural Committee
