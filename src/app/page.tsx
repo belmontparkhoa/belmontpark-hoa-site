@@ -48,10 +48,6 @@ export default function HomePage() {
                 ))}
                 </ul>
             </div>
-            <div className="flex-1 p-5">
-                <h1 className="text-2xl">Time Sensitive:</h1>
-                <p><b className="text-semi"><Link href="/updates/proposed-ccr-changes">Proposed CCR changes</Link></b></p>
-            </div>
         </div>
     </div>
     )
