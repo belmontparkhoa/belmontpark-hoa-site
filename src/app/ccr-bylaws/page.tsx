@@ -9,6 +9,9 @@ export default function ccrBylaws() {
              <a href='https://r2.belmontparkhoa.net/ccrs/ccrs_2026_04_16.pdf'>PDF</a>
              <span> </span>
              <a href='https://r2.belmontparkhoa.net/ccrs/ccrs_2026_04_16.html'>HTML</a>
+             <span> </span>
+             <a href='https://r2.belmontparkhoa.net/ccrs/ccrs_2026_04_16_scan.pdf'>Ada County recorded scan</a>
+
             )
             </li>
             <li className="text-2xl"><a href='https://r2.belmontparkhoa.net/bylaws/bylaws_amended_nov_2025.pdf'>Articles of Incorporation & By-Laws</a></li>
