@@ -3,6 +3,7 @@ import Link from 'next/link'
 export default function NewsLetter() {
     const newsLetterLocation = 'https://r2.belmontparkhoa.net/newsletters/';
     const newsletters = [
+        {name: 'September 2026', filename: '2026_sept.pdf'},
         {name: 'Winter 2026', filename: '2026_winter.pdf'},
         {name: 'Fall 2025', filename: '2025_fall.pdf'},
         {name: 'Spring 2025', filename: '2025_spring.pdf'},
